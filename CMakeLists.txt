@@ -8,7 +8,7 @@ add_library(${PROJECT_NAME} ${src_files})
 
 
 target_include_directories(${PROJECT_NAME}
-    PUBLIC ${CMAKE_SOURCE_DIR}/include
+    PUBLIC ./include
     PUBLIC ${CMAKE_SOURCE_DIR}/external/imgui/include
 )
 
